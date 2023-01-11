@@ -1,0 +1,70 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Barlow Condensed' , sans-serif;
+}
+ .vid1 {
+    margin: 10%;
+    margin-bottom: 0%;
+} 
+
+p
+{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    
+  
+}
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+
+}
+h6{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(245, 2, 2); 
+  
+}
+span
+{
+    cursor: pointer;
+}
+.footer {
+    display:flex;
+    align-items:flex-end;
+}
+a{
+    color: rgb(244, 104, 10); 
+    display: block;
+    margin-left: 50%;
+    text-decoration: none;
+}
+.animation
+{
+    color: yellow;
+    text-shadow: 0 0 10px yellow, 0 0 25px yellow;
+    animation: glow 1.5s linear infinite;
+}
+@keyframes glow
+{
+    0%
+    {
+    filter: hue-rotate(0deg);
+    }
+    100%
+    {
+    filter: hue-rotate(360deg);
+    }
+}
